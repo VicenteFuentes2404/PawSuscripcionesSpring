@@ -1,0 +1,11 @@
+{
+  "nombre": "Netflix",
+  "monto": 9990,
+  "fechaVencimiento": "2025-12-01",
+  "metodoPago": "Tarjeta",
+  "etiqueta": "Entretenimiento"
+}
+
+
+DROP TABLE producto CASCADE CONSTRAINTS;
+DROP TABLE suscripcion CASCADE CONSTRAINTS;
