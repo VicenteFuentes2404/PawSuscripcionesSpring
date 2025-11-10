@@ -1,0 +1,6 @@
+com\example\pawsuscripciones\pawsuscripciones\repository\SuscripcionRepository.class
+com\example\pawsuscripciones\pawsuscripciones\service\ISuscripcionService.class
+com\example\pawsuscripciones\pawsuscripciones\model\Suscripcion.class
+com\example\pawsuscripciones\pawsuscripciones\PawsuscripcionesApplication.class
+com\example\pawsuscripciones\pawsuscripciones\controller\SuscripcionController.class
+com\example\pawsuscripciones\pawsuscripciones\service\impl\SuscripcionService.class
