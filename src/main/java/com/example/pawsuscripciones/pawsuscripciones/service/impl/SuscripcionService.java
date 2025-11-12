@@ -37,7 +37,7 @@ public class SuscripcionService implements ISuscripcionService {
             Suscripcion s = existente.get();
             s.setNombre(suscripcion.getNombre());
             s.setMonto(suscripcion.getMonto());
-            s.setFechaVencimiento(suscripcion.getFechaVencimiento());
+            s.setFechaVencimiento(suscripcion.getFechaVencimiento()); // ✅ tipo Long
             s.setMetodoPago(suscripcion.getMetodoPago());
             s.setEtiqueta(suscripcion.getEtiqueta());
             return repository.save(s);

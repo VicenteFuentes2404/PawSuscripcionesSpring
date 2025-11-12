@@ -1,9 +1,7 @@
 package com.example.pawsuscripciones.pawsuscripciones.model;
 
-
 import jakarta.persistence.*;
 import lombok.Data;
-import java.time.LocalDate;
 
 @Data
 @Entity
@@ -15,11 +13,11 @@ public class Suscripcion {
     private Long id;
 
     private String nombre;
-
     private Double monto;
 
+    //ahora es Long en vez de LocalDate
     @Column(name = "fecha_vencimiento")
-    private LocalDate fechaVencimiento;
+    private Long fechaVencimiento;
 
     @Column(name = "metodo_pago")
     private String metodoPago;

@@ -1,4 +1,4 @@
-# Created at 2025-11-12T12:33:31.310
+# Created at 2025-11-12T13:19:14.404
 Boot Manifest-JAR contains absolute paths in classpath 'F:\Trabajo\Ev3fullstackappmoviles\pawsuscripcionesspring\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
