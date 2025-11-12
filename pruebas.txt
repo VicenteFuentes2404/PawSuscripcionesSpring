@@ -1,0 +1,28 @@
+http://localhost:8090/api/suscripciones
+
+{
+  "nombre": "Netflix",
+  "monto": 4990,
+  "fechaVencimiento": "2025-12-31",
+  "metodoPago": "Tarjeta de crédito",
+  "etiqueta": "Entretenimiento"
+}
+
+
+
+
+
+
+--Conexión postgresql vs
+
+Host: dpg-d4a9ur24d50c739sr4mg-a.virginia-postgres.render.com
+
+Database: paw_zptp
+
+User: admin
+
+Password: ORiBJtypemashRRsb69kUgAsmS1Rs34L
+
+Port: 5432
+
+SSL: activado
