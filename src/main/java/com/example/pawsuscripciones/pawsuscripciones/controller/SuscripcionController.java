@@ -28,11 +28,15 @@ public class SuscripcionController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+     @PostMapping
     public Suscripcion guardar(@RequestBody Suscripcion suscripcion) {
+        // Forzamos el ID a null para que @GeneratedValue(IDENTITY) funcione
+        // y la base de datos asigne un nuevo ID, ignorando el '0' que envía la app.
+        
+        //la app envía '0' y la api espera null para crear un nuevo registro
+        suscripcion.setId(null);
         return service.guardar(suscripcion);
     }
-
     @PutMapping("/{id}")
     public ResponseEntity<Suscripcion> actualizar(@PathVariable Long id, @RequestBody Suscripcion suscripcion) {
         Suscripcion actualizado = service.actualizar(id, suscripcion);
