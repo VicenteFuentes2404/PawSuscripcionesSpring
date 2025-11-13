@@ -27,6 +27,8 @@ public class SuscripcionService implements ISuscripcionService {
 
     @Override
     public Suscripcion guardar(Suscripcion suscripcion) {
+         // Forzamos el ID a null para que JPA sepa que es un INSERT (nuevo)
+        suscripcion.setId(null);
         return repository.save(suscripcion);
     }
 
